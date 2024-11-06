@@ -353,6 +353,34 @@ function FighterDetails(props) {
                                     }
                                 </tbody>
                             </table>
+							
+							<table className="c-fighter-details__table">
+                                <tbody>
+                                    <tr>
+                                        <th className="width-33 hidden"></th>
+                                        <th className="width-33">Hits?</th>
+                                        <th className="width-33">Tippers?</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Jump SideB Fsmash</td>
+                                        <td>
+                                            <ValueIcon value={fighterDetails?.jumpSideBFsmash?.hits}/>
+                                        </td>
+                                        <td>
+                                            <ValueIcon value={fighterDetails?.jumpSideBFsmash?.tippers}/>
+                                        </td>
+                                    </tr>
+                                    {
+                                        (fighterDetails?.jumpSideBFsmash?.notes != null) &&
+                                        <tr>
+                                            <td className="width-33 hidden"></td>
+                                            <td className="c-fighter-details__table-notes text-start" colSpan={2}>
+                                                <strong>Notes:</strong> {fighterDetails?.jumpSideBFsmash?.notes}
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
                         </div>
                     </Collapse>
 

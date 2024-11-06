@@ -1481,7 +1481,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "donkey_kong": {
         dthrow: {
@@ -1532,7 +1537,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup",
+		},
     },
     "link": {
         dthrow: {
@@ -1583,7 +1593,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "samus": {
         dthrow: {
@@ -1634,7 +1649,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "dark_samus": {
         dthrow: {
@@ -1685,7 +1705,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "yoshi": {
         dthrow: {
@@ -1736,7 +1761,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "kirby": {
         dthrow: {
@@ -1787,7 +1817,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 9,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "fox": {
         dthrow: {
@@ -1838,7 +1873,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 93,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "pikachu": {
         dthrow: {
@@ -1889,7 +1929,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "luigi": {
         dthrow: {
@@ -1940,7 +1985,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "ness": {
         dthrow: {
@@ -1991,7 +2041,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "captain_falcon": {
         dthrow: {
@@ -2042,7 +2097,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 120,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "jigglypuff": {
         dthrow: {
@@ -2093,7 +2153,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "peach": {
         dthrow: {
@@ -2144,7 +2209,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "daisy": {
         dthrow: {
@@ -2195,7 +2265,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "bowser": {
         dthrow: {
@@ -2246,7 +2321,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "ice_climbers": {
         dthrow: {
@@ -2297,7 +2377,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "sheik": {
         dthrow: {
@@ -2348,7 +2433,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "zelda": {
         dthrow: {
@@ -2399,7 +2489,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 109,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "dr_mario": {
         dthrow: {
@@ -2450,7 +2545,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "pichu": {
         dthrow: {
@@ -2501,7 +2601,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "falco": {
         dthrow: {
@@ -2552,7 +2657,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 228,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "marth": {
         dthrow: {
@@ -2603,7 +2713,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "lucina": {
         dthrow: {
@@ -2654,7 +2769,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "young_link": {
         dthrow: {
@@ -2705,7 +2825,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 139,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "ganondorf": {
         dthrow: {
@@ -2756,7 +2881,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "mewtwo": {
         dthrow: {
@@ -2807,7 +2937,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 218,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup"
+		},
     },
     "roy": {
         dthrow: {
@@ -2858,7 +2993,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "chrom": {
         dthrow: {
@@ -2909,7 +3049,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "gnw": {
         dthrow: {
@@ -2960,7 +3105,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 5,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "meta_knight": {
         dthrow: {
@@ -3011,7 +3161,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "pit": {
         dthrow: {
@@ -3062,7 +3217,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 247,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Hits on no crossup"
+		},
     },
     "dark_pit": {
         dthrow: {
@@ -3113,7 +3273,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 247,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Hits on no crossup"
+		},
     },
     "zss": {
         dthrow: {
@@ -3164,7 +3329,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "wario": {
         dthrow: {
@@ -3215,7 +3385,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "snake": {
         dthrow: {
@@ -3266,7 +3441,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "ike": {
         dthrow: {
@@ -3317,7 +3497,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Hits on no crossup"
+		},
     },
     "squirtle": {
         dthrow: {
@@ -3368,7 +3553,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "ivysaur": {
         dthrow: {
@@ -3419,7 +3609,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 126,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "charizard": {
         dthrow: {
@@ -3470,7 +3665,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup"
+		},
     },
     "diddy_kong": {
         dthrow: {
@@ -3521,7 +3721,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "lucas": {
         dthrow: {
@@ -3572,7 +3777,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "sonic": {
         dthrow: {
@@ -3623,7 +3833,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup"
+		},
     },
     "king_dedede": {
         dthrow: {
@@ -3674,7 +3889,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 183,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "olimar": {
         dthrow: {
@@ -3725,7 +3945,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "lucario": {
         dthrow: {
@@ -3776,7 +4001,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "rob": {
         dthrow: {
@@ -3827,7 +4057,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "toon_link": {
         dthrow: {
@@ -3878,7 +4113,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "wolf": {
         dthrow: {
@@ -3929,7 +4169,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "villager": {
         dthrow: {
@@ -3980,7 +4225,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "mega_man": {
         dthrow: {
@@ -4031,7 +4281,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Hits on no crossup"
+		},
     },
     "wii_fit_trainer": {
         dthrow: {
@@ -4082,7 +4337,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "rosalina": {
         dthrow: {
@@ -4133,7 +4393,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 204,
             notes: "Cannot armor Luma's rapid jab"
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "little_mac": {
         dthrow: {
@@ -4184,7 +4449,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "greninja": {
         dthrow: {
@@ -4235,7 +4505,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 247,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Only work from right to left crossup"
+		},
     },
     "mii_brawler": {
         dthrow: {
@@ -4286,7 +4561,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 98,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "mii_sword": {
         dthrow: {
@@ -4337,7 +4617,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "mii_gunner": {
         dthrow: {
@@ -4388,7 +4673,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "palutena": {
         dthrow: {
@@ -4439,7 +4729,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 5,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "pac_man": {
         dthrow: {
@@ -4490,7 +4785,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "robin": {
         dthrow: {
@@ -4541,7 +4841,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 60,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "shulk": {
         dthrow: {
@@ -4592,7 +4897,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "bowser_jr": {
         dthrow: {
@@ -4643,7 +4953,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 247,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup"
+		},
     },
     "duck_hunt": {
         dthrow: {
@@ -4694,7 +5009,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "ryu": {
         dthrow: {
@@ -4745,7 +5065,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "ken": {
         dthrow: {
@@ -4796,7 +5121,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "cloud": {
         dthrow: {
@@ -4847,7 +5177,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "corrin": {
         dthrow: {
@@ -4898,7 +5233,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 6,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "bayonetta": {
         dthrow: {
@@ -4949,7 +5289,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 7,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "inkling": {
         dthrow: {
@@ -5000,7 +5345,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 300,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Hits on no crossup"
+		},
     },
     "ridley": {
         dthrow: {
@@ -5051,7 +5401,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 2,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "simon": {
         dthrow: {
@@ -5102,7 +5457,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 247,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup"
+		},
     },
     "richter": {
         dthrow: {
@@ -5153,7 +5513,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 247,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: "Tippers on no crossup"
+		},
     },
     "king_k_rool": {
         dthrow: {
@@ -5204,7 +5569,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "isabelle": {
         dthrow: {
@@ -5255,7 +5625,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "incineroar": {
         dthrow: {
@@ -5306,7 +5681,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup"
+		},
     },
     "piranha_plant": {
         dthrow: {
@@ -5357,7 +5737,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 236,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "joker": {
         dthrow: {
@@ -5408,7 +5793,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "hero": {
         dthrow: {
@@ -5459,7 +5849,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "banjo": {
         dthrow: {
@@ -5510,7 +5905,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 5,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "terry": {
         dthrow: {
@@ -5561,7 +5961,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "byleth": {
         dthrow: {
@@ -5612,7 +6017,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 7,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Hits on no crossup"
+		},
     },
     "min_min": {
         dthrow: {
@@ -5663,7 +6073,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.no,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "steve": {
         dthrow: {
@@ -5714,7 +6129,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.depends,
+			notes: "Tippers on no crossup"
+		},
     },
     "sephiroth": {
         dthrow: {
@@ -5765,7 +6185,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "pyra": {
         dthrow: {
@@ -5816,7 +6241,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 4,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.yes,
+			notes: null
+		},
     },
     "mythra": {
         dthrow: {
@@ -5867,7 +6297,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.yes,
             armorsUntil: 7,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "kazuya": {
         dthrow: {
@@ -5918,7 +6353,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.yes,
+			tippers: VALUES.no,
+			notes: null
+		},
     },
     "sora": {
         dthrow: {
@@ -5969,7 +6409,12 @@ const FIGHTER_DETAILS = {
             hasRapidJab: VALUES.no,
             armorsUntil: null,
             notes: null
-        }
+        },
+		jumpSideBFsmash: {
+			hits: VALUES.depends,
+			tippers: VALUES.no,
+			notes: "Hits on no crossup"
+		},
     },
 }
 
